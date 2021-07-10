@@ -1,0 +1,54 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    flex: 0.35;  /*just take 35 percent on left*/
+}
+
+.slidebar_header{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    border-right: 1px solid black;
+}
+
+.slidebar_Right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 10vw;
+}
+
+.slidebar_headerRight>.MuiSvgIcon-root{
+    margin-right: 2vw;
+   font-size:24px !important;
+}
+
+.slidebar_search{
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    height: 39px;
+    padding:10px;
+
+}
+
+.slidebar_searchContainer{
+    display: flex;
+    align-items: center;
+    background-color: rgb(238, 241, 245);
+    height: 39px;
+    padding:10px;
+    border-radius: 200px;
+    width: 100%;
+}
+
+.slidebar_searchContainer>.MuiSvgIcon{
+    color:gray;
+    padding:10px;
+}
+
+.slidebar_searchContainer>input{
+    border: none;
+    margin-left: 10px;
+    outline-width: 0; /*this removes blue box that apper when we click on search box*/
+}
